@@ -6,7 +6,7 @@
     {
       "label": "Run server",
       "type": "shell",
-      "command": "python manage.py runserver",
+      "command": "python3.6 manage.py runserver",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -15,7 +15,7 @@
     {
       "label": "Migrate db",
       "type": "shell",
-      "command": "python manage.py migrate"
+      "command": "python3.6 manage.py migrate"
     }
   ]
 }
